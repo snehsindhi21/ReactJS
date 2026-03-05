@@ -1,17 +1,34 @@
-import React from 'react'
-import Dummy from './Dummy'
+import React, { use } from "react";
+import Fragment1 from "./ReactFragments/Fragment1";
+import Fragment2 from "./ReactFragments/Fragment2";
+import FunComp1 from "./Components/FunComp1";
+import FunComp2 from "./Components/FunComp2";
+import Parent from "./Props/Parent";
+import Component1 from "./Props/Component1";
 
-    //rfc-react function component
-    //rafce- react arrow function component with export
+const App = () => {
+  let username = "Don";
 
-    const App = () => {
-      return (
-        <div>
-            <h1>App component</h1>
-            <hr />
-            <Dummy />
-        </div>
-      )
-    }
-    
-    export default App
+  return (
+    <>
+      {/* <h1>Hello React</h1>
+      <p>This is subheading</p>
+      <img src="https://picsum.photos/300/200" alt="" />
+      <br />
+      <hr /> */}
+      {/* <h1>{username === "" ? "John" : " Guest"}</h1> */}
+     {/* <button onClick={}></button> */}
+     {/* <Fragment1/>
+     <Fragment2/> */}
+
+     {/* <FunComp1/>
+     <FunComp2/> */}
+
+     {/* <Parent /> */}
+
+     <Component1 />
+    </>
+  );
+};
+
+export default App;
