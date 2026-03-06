@@ -1,7 +1,7 @@
 import React from 'react';
 import DefaultProps from './DefaultProps';
 import PropsChild from './PropsChild';
-import UserComponent from './UserComponent';
+
 
 const CommonCompo = () => {
   return (
