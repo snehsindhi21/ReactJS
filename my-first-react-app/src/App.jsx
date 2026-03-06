@@ -5,6 +5,11 @@ import FunComp1 from "./Components/FunComp1";
 import FunComp2 from "./Components/FunComp2";
 import Parent from "./Props/Parent";
 import Component1 from "./Props/Component1";
+import CommonComp from "./Props/CommonComp";
+import Home from "./Props/Home";
+import About from "./Props/About";
+import WithState from "./State/WithState";
+import WithoutState from "./State/WithoutState";
 
 const App = () => {
   let username = "Don";
@@ -26,7 +31,16 @@ const App = () => {
 
      {/* <Parent /> */}
 
-     <Component1 />
+     {/* <Component1 /> */}
+
+     {/* <CommonComp /> */}
+
+     {/* <Home /> */}
+     {/* <About /> */}
+
+     <WithState />
+     <WithoutState />
+
     </>
   );
 };
