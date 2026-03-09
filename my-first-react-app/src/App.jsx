@@ -19,6 +19,9 @@ import ChangeEvent from "./EventHandling/ChangeEvent";
 import SubmitEvent from "./EventHandling/SubmitEvent";
 import IfElseRendering from "./ConditionalRendering/IfElseRendering";
 import TernaryOperator from "./ConditionalRendering/TernaryOperator";
+import ShortCircuit from "./ConditionalRendering/ShortCircuit";
+import ControlledFormHandling from "./FormHandling/ControlledFormHandling";
+import SingleStateObject from "./FormHandling/SingleStateObject";
 
 const App = () => {
   let username = "Don";
@@ -58,6 +61,9 @@ const App = () => {
       {/* <SubmitEvent/> */}
       {/* <IfElseRendering /> */}
       {/* <TernaryOperator /> */}
+      {/* <ShortCircuit /> */}
+      {/* <ControlledFormHandling/> */}
+      <SingleStateObject/>
     </>
   );
 };
