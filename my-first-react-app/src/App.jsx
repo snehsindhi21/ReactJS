@@ -12,6 +12,13 @@ import WithState from "./State/WithState";
 import WithoutState from "./State/WithoutState";
 import CounterWithClass from "./State/CounterWithClass";
 import ProductList from "./TaskStatePropsList/ProductList";
+import EventWithParameter from "./EventHandling/EventWithParameter";
+import InlineEvent from "./EventHandling/InlineEvent";
+import ExternalEventHandling from "./EventHandling/ExternalEventHandling";
+import ChangeEvent from "./EventHandling/ChangeEvent";
+import SubmitEvent from "./EventHandling/SubmitEvent";
+import IfElseRendering from "./ConditionalRendering/IfElseRendering";
+import TernaryOperator from "./ConditionalRendering/TernaryOperator";
 
 const App = () => {
   let username = "Don";
@@ -43,8 +50,14 @@ const App = () => {
      {/* <WithState />
      <WithoutState /> */}
      {/* <CounterWithClass /> */}
-     <ProductList />
-
+     {/* <ProductList /> */}
+     {/* <InlineEvent /> */}
+     {/* <ExternalEventHandling */}
+      {/* <EventWithParameter /> */}
+      {/* <ChangeEvent/> */}
+      {/* <SubmitEvent/> */}
+      {/* <IfElseRendering /> */}
+      {/* <TernaryOperator /> */}
     </>
   );
 };
