@@ -26,7 +26,7 @@ const SingleStateObject = () => {
         e.preventDefault();
         console.log("Form Submitted");
         console.log(formData);
-        setFormData({
+        setFormData({ 
             name: "",
             email: "",
             password: ""

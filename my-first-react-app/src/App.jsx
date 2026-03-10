@@ -22,6 +22,9 @@ import TernaryOperator from "./ConditionalRendering/TernaryOperator";
 import ShortCircuit from "./ConditionalRendering/ShortCircuit";
 import ControlledFormHandling from "./FormHandling/ControlledFormHandling";
 import SingleStateObject from "./FormHandling/SingleStateObject";
+import RadioInput from "./FormHandling/RadioInput";
+import CheckBox from "./FormHandling/CheckBox";
+import SelectDropdown from "./FormHandling/SelectDropdown";
 
 const App = () => {
   let username = "Don";
@@ -63,7 +66,10 @@ const App = () => {
       {/* <TernaryOperator /> */}
       {/* <ShortCircuit /> */}
       {/* <ControlledFormHandling/> */}
-      <SingleStateObject/>
+      {/* <SingleStateObject/> */}
+      {/* <RadioInput/> */}
+      {/* <CheckBox /> */}
+      <SelectDropdown/>
     </>
   );
 };
