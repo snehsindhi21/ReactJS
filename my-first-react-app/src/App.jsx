@@ -25,6 +25,8 @@ import SingleStateObject from "./FormHandling/SingleStateObject";
 import RadioInput from "./FormHandling/RadioInput";
 import CheckBox from "./FormHandling/CheckBox";
 import SelectDropdown from "./FormHandling/SelectDropdown";
+import FileUpload from "./FormHandling/FileUpload";
+import FormTask from "./FormHandling/FormTask";
 
 const App = () => {
   let username = "Don";
@@ -69,7 +71,9 @@ const App = () => {
       {/* <SingleStateObject/> */}
       {/* <RadioInput/> */}
       {/* <CheckBox /> */}
-      <SelectDropdown/>
+      {/* <SelectDropdown/> */}
+      {/* <FileUpload/> */}
+      <FormTask/>
     </>
   );
 };
