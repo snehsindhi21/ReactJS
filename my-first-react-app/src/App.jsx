@@ -27,6 +27,14 @@ import CheckBox from "./FormHandling/CheckBox";
 import SelectDropdown from "./FormHandling/SelectDropdown";
 import FileUpload from "./FormHandling/FileUpload";
 import FormTask from "./FormHandling/FormTask";
+import UnControlledFormHandling from "./FormHandling/UnControlledFormHandling";
+import LoginUncontrolled from "./FormHandling/LoginUncontrolled";
+import InlineStyling from "./StylingReact/InlineStyling";
+import InternalStyle from "./StylingReact/InternalStyle";
+// import Component2 from "./StylingReact/Component2";
+import ToggleAndNotify from "./PasswordTask/ToggleAndNotify";
+import TodoApp from "./TodoListTask/TodoApp";
+
 
 const App = () => {
   let username = "Don";
@@ -73,7 +81,15 @@ const App = () => {
       {/* <CheckBox /> */}
       {/* <SelectDropdown/> */}
       {/* <FileUpload/> */}
-      <FormTask/>
+      {/* <FormTask/> */}
+      {/* <UnControlledFormHandling/> */}
+      {/* <LoginUncontrolled/> */}
+      {/* <InlineStyling/> */}
+      {/* <InternalStyle/> */}
+      {/* <Component2/> */}
+      {/* <ToggleAndNotify/> */}
+      <TodoApp/>
+
     </>
   );
 };
