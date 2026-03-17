@@ -34,6 +34,11 @@ import InternalStyle from "./StylingReact/InternalStyle";
 // import Component2 from "./StylingReact/Component2";
 import ToggleAndNotify from "./PasswordTask/ToggleAndNotify";
 import TodoApp from "./TodoListTask/TodoApp";
+import ParentComponent from "./ContextAPI/ParentComponent";
+import ChildComponent from "./ContextAPI/ChildComponent";
+import GrandChildComponent from "./ContextAPI/GrandChildComponent";
+import CounterProvider from "./ContextAPI/ContextAPIandState/CounterProvider";
+import Counter from "./ContextAPI/ContextAPIandState/Counter";
 
 
 const App = () => {
@@ -88,8 +93,14 @@ const App = () => {
       {/* <InternalStyle/> */}
       {/* <Component2/> */}
       {/* <ToggleAndNotify/> */}
-      <TodoApp/>
-
+      {/* <TodoApp/> */}
+      {/* <ParentComponent>
+        <ChildComponent/>
+        <GrandChildComponent/>
+      </ParentComponent> */}
+      <CounterProvider>
+        <Counter/>
+      </CounterProvider>
     </>
   );
 };
