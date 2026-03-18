@@ -1,16 +1,25 @@
-import React, { useContext } from 'react'
+import React, { createContext, useContext, useState } from "react";
 
-//! context for global theme
-export let GlobalThemeContext = useContext();
+//! Context for global theme
+export let GlobalThemeContext = createContext();
 
+const ThemeProvider = ({ children }) => {
+  //! state for theme
+  let [theme, setTheme] = useState(false);
 
-const ThemeProvider = () => {
-
-    
-
+  //! toggleTheme
+  let toggleTheme = () => {
+    setTheme(!theme);
+  };
   return (
-    <div>ThemeProvider</div>
-  )
-}
+    <GlobalThemeContext.Provider value={{ theme, setTheme, toggleTheme }}>
+      {children}
+    </GlobalThemeContext.Provider>
+  );
+};
 
-export default ThemeProvider
+export let useTheme = () => {
+  return useContext(GlobalThemeContext);
+};
+
+export default ThemeProvider;

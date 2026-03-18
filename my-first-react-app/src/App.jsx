@@ -39,6 +39,11 @@ import ChildComponent from "./ContextAPI/ChildComponent";
 import GrandChildComponent from "./ContextAPI/GrandChildComponent";
 import CounterProvider from "./ContextAPI/ContextAPIandState/CounterProvider";
 import Counter from "./ContextAPI/ContextAPIandState/Counter";
+import ThemeProvider from "./ContextAPI/ThemeProvider";
+import HomePage from "./ContextAPI/HomePage";
+import UseEffect1 from "./UseEffectHook/UseEffect1";
+import UseEffect2 from "./UseEffectHook/UseEffect2";
+import TaskUsersList from "./TaskUsersList/TaskUsersList";
 
 
 const App = () => {
@@ -98,9 +103,15 @@ const App = () => {
         <ChildComponent/>
         <GrandChildComponent/>
       </ParentComponent> */}
-      <CounterProvider>
+      {/* <CounterProvider>
         <Counter/>
-      </CounterProvider>
+      </CounterProvider> */}
+      {/* <ThemeProvider>
+        <HomePage/>
+      </ThemeProvider> */}
+      {/* <UseEffect1/> */}
+      {/* <UseEffect2/> */}
+      <TaskUsersList/>
     </>
   );
 };
