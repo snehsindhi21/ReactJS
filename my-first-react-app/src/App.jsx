@@ -44,6 +44,7 @@ import HomePage from "./ContextAPI/HomePage";
 import UseEffect1 from "./UseEffectHook/UseEffect1";
 import UseEffect2 from "./UseEffectHook/UseEffect2";
 import TaskUsersList from "./TaskUsersList/TaskUsersList";
+import Task1 from "./APIFetch+SearchFilter/Task1";
 
 
 const App = () => {
@@ -111,7 +112,8 @@ const App = () => {
       </ThemeProvider> */}
       {/* <UseEffect1/> */}
       {/* <UseEffect2/> */}
-      <TaskUsersList/>
+      {/* <TaskUsersList/> */}
+      <Task1/>
     </>
   );
 };
