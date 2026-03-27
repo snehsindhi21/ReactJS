@@ -14,7 +14,7 @@ const Navbar = () => {
                     <NavLink to={"/"} className={({isActive})=> `text-lg font-bold ${isActive ? "text-indigo-600 underline" : "text-black"}`}>Home</NavLink>
                 </li>
                 <li>
-                    <NavLink to={"/users"} className={({isActive})=> `text-lg font-bold ${isActive ? "text-indigo-600 underline" : "text-black"}`}>Users</NavLink>
+                    <NavLink to={"/user-form"} className={({isActive})=> `text-lg font-bold ${isActive ? "text-indigo-600 underline" : "text-black"}`}>User Form</NavLink>
                 </li>
             </ul>
         </nav>

@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "firstName": "SNEH",
+      "lastName": "SINDHI",
+      "email": "snehsindhi2004@gmail.com",
+      "password": "123",
+      "confirmPassword": "123",
+      "id": "R2mbUlVQ214"
+    },
+    {
+      "firstName": "john",
+      "lastName": "doe",
+      "email": "john@gmail.com",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "id": "fMlXyfKNy4c"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
